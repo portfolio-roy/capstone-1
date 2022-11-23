@@ -165,8 +165,8 @@ section .container {
 .navbar .main-nav .main-menu .nav-item .nav-link {
   text-decoration: none;
   color: #272a31;
-  font-size: 32px !important;
-  line-height: 44px !important;
+  font-size: 32px;
+  line-height: 44px;
   padding: 8px 16px !important;
   text-align: left !important;
 }
@@ -481,6 +481,10 @@ button,
   background-color: #414246;
 }
 
+#home #partners {
+  display: none !important;
+}
+
 .partner-logos {
   flex-flow: row wrap !important;
   justify-content: center;
@@ -587,5 +591,254 @@ footer .footer-logo {
 
   footer .rights {
     text-align: center !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .col-md-2 {
+    width: 16.66%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: 33.32%;
+  }
+
+  .col-md-5 {
+    width: 41.65%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-7 {
+    width: 58.31%;
+  }
+
+  .col-md-8 {
+    width: 66.64%;
+  }
+
+  .col-md-9 {
+    width: 75%;
+  }
+
+  .col-md-10 {
+    width: 83.3%;
+  }
+
+  .col-md-11 {
+    width: 91.63%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+
+  .navbar {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+  }
+
+  .nav-logo {
+    height: 30px;
+    width: auto;
+  }
+
+  .main-nav {
+    padding: 0 !important;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .site-title {
+    display: block;
+  }
+
+  .menu-ico {
+    display: none;
+  }
+
+  .main-menu {
+    position: relative !important;
+    display: flex;
+    flex-direction: row !important;
+    width: 100%;
+    text-align: right !important;
+    transition: 0.3s;
+    align-items: center !important;
+    z-index: 999;
+    list-style-type: none;
+    justify-content: flex-end;
+    right: 0 !important;
+    background: transparent !important;
+    top: 0 !important;
+    height: auto !important;
+  }
+
+  .nav-item {
+    margin: 0 !important;
+  }
+
+  .nav-link {
+    font-size: 16px !important;
+    line-height: 100%;
+    transition: 500ms ease;
+  }
+
+  .nav-link#campaign {
+    border: 2px solid #ec5242;
+    color: #ec5242;
+  }
+
+  .nav-link#campaign:hover {
+    color: #272a31;
+    border-color: #272a31;
+  }
+
+  .nav-link:hover {
+    color: #ec5242;
+  }
+
+  #banner .container {
+    align-items: flex-start !important;
+  }
+
+  #banner .info-box {
+    width: 70%;
+  }
+
+  #program .card-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  #program .card-list .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211 211 211 / 20%);
+    text-align: center;
+    padding: 24px 16px;
+    width: 20%;
+    transition: 500ms ease;
+  }
+
+  #program .card-list .card:hover {
+    border: 2px solid #d3d3d3;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  #performers .card-list {
+    flex-direction: row;
+    padding: 0 10%;
+  }
+
+  #performers .btn-white {
+    display: none;
+  }
+
+  #performers .performer-photo {
+    background-image: url("../images/bg-chessboard-gray.png");
+  }
+
+  .performers-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .performers-text .name {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .performers-text .designation {
+    font-style: italic;
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .performers-text p {
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .partner-logos {
+    justify-content: space-around;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  #home #partners {
+    display: flex !important;
+  }
+
+  #about #banner .container {
+    align-items: center !important;
+  }
+
+  #about .past-programs-list {
+    flex-direction: row;
+  }
+
+  #about #partners {
+    display: none;
+  }
+
+  #about footer {
+    background-color: #272a31;
+    color: white;
+  }
+
+  #about footer .footer-logo {
+    filter: invert(1);
+  }
+
+  .spacer-auto {
+    height: 8px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .performers-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .performers-text .name {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .performers-text .designation {
+    font-style: italic;
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .performers-text p {
+    margin: 0;
+    font-size: 18px;
   }
 }
