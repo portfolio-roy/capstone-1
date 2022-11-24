@@ -53,8 +53,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **Responsive Design**
 - **Dynamic HTML**
 - **No framework**
@@ -74,8 +72,6 @@
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -126,8 +122,6 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 ## Author
 
 👤 **Utsargo Roy**
@@ -167,8 +161,6 @@ I would like to thank all my fellow micronauts.
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **What is this project?**
 
