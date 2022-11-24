@@ -118,9 +118,8 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
-## Author
+## 👥 Author 
+<a name="authors"></a>
 
 👤 **Utsargo Roy**
 
