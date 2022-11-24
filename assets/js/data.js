@@ -20,7 +20,7 @@ const projectData = [
   {
     performerName: 'John Edmond',
     designation: 'Rhodesian folk singer',
-    featuredImage: '/assets/images/john-edmond.jpg',
+    featuredImage: './assets/images/john-edmond.jpg',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
   },
   {
@@ -32,7 +32,7 @@ const projectData = [
   {
     performerName: 'Baul Ronesh Thakur',
     designation: 'Bangladeshi folk vocalist',
-    featuredImage: '/assets/images/ronesh-thakur.jpg',
+    featuredImage: './assets/images/ronesh-thakur.jpg',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
   },
 
