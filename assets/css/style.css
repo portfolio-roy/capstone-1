@@ -1,4 +1,5 @@
 @import url("https://use.typekit.net/jxw0jvb.css");
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
 
 .bg-nav {
   background-color: rgb(255 255 255 / 80%) !important;
@@ -118,6 +119,10 @@ section .container {
 }
 
 .site-title {
+  display: none;
+}
+
+.top-nav {
   display: none;
 }
 
@@ -245,7 +250,7 @@ section .container {
   /* stylelint-disable-next-line */
   background-clip: text;
   text-transform: uppercase;
-  font-weight: 800;
+  font-family: COCOGOOSE, sans-serif;
 }
 
 .info-box {
@@ -258,7 +263,7 @@ section .container {
 
 .banner-schedule {
   font-size: 44px;
-  font-weight: bolder;
+  font-family: COCOGOOSE, sans-serif;
 }
 
 .m-0 {
@@ -423,6 +428,10 @@ button,
 
 .btn-white i {
   color: #ec5242;
+}
+
+.btn-program {
+  text-decoration: none;
 }
 
 #about .banner-text {
@@ -654,6 +663,35 @@ footer .footer-logo {
     width: 100%;
   }
 
+  .top-nav {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #272a31;
+    padding: 0 5%;
+    width: 100%;
+  }
+
+  .top-nav .top-menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    margin: 5px 0;
+  }
+
+  .top-nav .top-menu .top-nav-link {
+    font-size: small;
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
+  .top-nav .top-menu .top-nav-link:hover {
+    color: #ec5242;
+  }
+
   .navbar {
     background-color: white;
     position: fixed;
@@ -839,6 +877,21 @@ footer .footer-logo {
 
   .spacer-auto {
     height: 8px;
+  }
+
+  .btn-program {
+    background: transparent;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #d3d3d3;
+    font-size: 18px;
+    padding: 0;
+    transition: 500ms ease;
+  }
+
+  .btn-program:hover {
+    color: #ec5242;
+    background: transparent;
   }
 }
 

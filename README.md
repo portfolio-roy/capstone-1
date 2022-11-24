@@ -156,6 +156,9 @@ If you like this project give me a star.
 
 I would like to thank all my fellow micronauts.
 
+**Design credit:**  [Cindy Shin](https://www.behance.net/adagio07)
+**Cocogoose font credit** [CDN Fonts](https://www.cdnfonts.com/cocogoose.font)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
