@@ -23,11 +23,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Capstone Project 1 <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**Capstone Project 1** is the first capstone project of Microverse curriculam. It's a simple two page website built with HTML, CSS and Javascript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
