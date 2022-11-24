@@ -1,7 +1,7 @@
 const menuIco = document.querySelector('.menu-ico');
 const navMenu = document.querySelector('.main-menu');
 const siteTitle = document.querySelector('.site-title');
-const navBar = document.querySelector('.navbar')
+const navBar = document.querySelector('.navbar');
 
 menuIco.addEventListener('click', () => {
   siteTitle.classList.toggle('v-hidden');

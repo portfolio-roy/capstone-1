@@ -242,6 +242,7 @@ section .container {
   -webkit-text-fill-color: transparent;
   /* stylelint-disable-next-line property-no-vendor-prefix */
   -webkit-background-clip: text;
+  /* stylelint-disable-next-line */
   background-clip: text;
   text-transform: uppercase;
   font-weight: 800;
