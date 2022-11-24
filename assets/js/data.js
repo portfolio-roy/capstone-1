@@ -2,19 +2,19 @@ const projectData = [
   {
     performerName: 'Pandit Ajoy Chakraborty',
     designation: 'Hindusthani classical vocalist and Guru',
-    featuredImage: '/assets/images/ajoy.jpg',
+    featuredImage: './assets/images/ajoy.jpg',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
   },
   {
     performerName: 'Hariprasad Chaurasia',
     designation: 'Classical flautist',
-    featuredImage: '/assets/images/chaurasia.jpg',
+    featuredImage: './assets/images/chaurasia.jpg',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
   },
   {
     performerName: 'Joshua Bell',
     designation: 'Violinist and conductor',
-    featuredImage: '/assets/images/joshua-bell.jpg',
+    featuredImage: './assets/images/joshua-bell.jpg',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
   },
   {
@@ -26,7 +26,7 @@ const projectData = [
   {
     performerName: 'Home Free',
     designation: 'American country a cappella group',
-    featuredImage: '/assets/images/home-free.jpg',
+    featuredImage: './assets/images/home-free.jpg',
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
   },
   {
