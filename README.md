@@ -63,8 +63,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](http://portfolio.utsargo.tech/capstone-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
